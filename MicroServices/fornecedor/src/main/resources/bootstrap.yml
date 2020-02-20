@@ -1,0 +1,10 @@
+
+# este arquivo será inicializado antes do application.properties, então as configurações de BD já serão pegas.
+spring:
+  application:
+    name: 'fornecedor'
+  profiles:
+    active: default
+  cloud:
+    config:
+      uri: http://localhost:8888
